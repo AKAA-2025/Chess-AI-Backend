@@ -37,7 +37,7 @@ pip freeze > requirements.txt
 
 Build the container:  
 ```bash
-docker build --no-cache -t backend .
+docker build -t backend .
 ```  
 
 Now you can run it:  
